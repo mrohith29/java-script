@@ -1,0 +1,1 @@
+console.log('this this how we output to the console\nfrom a file\n');
