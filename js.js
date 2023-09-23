@@ -18,4 +18,4 @@ const addMe = 10
 console.log(addMe)
 var favoriteAnimal = 'cat'
 console.log('My favorite animal: ' + favoriteAnimal)
-console.log('My favorite animal is ${favoriteAnimal}')
+console.log(`My favorite animal is ${favoriteAnimal}`)
