@@ -13,10 +13,19 @@
 // let myName = ''
 // console.log(myName)
 // console.log('hello i am \n')
-const addMe = 10
-// addMe += 10
-console.log(addMe)
-var favoriteAnimal = 'cat'
-console.log('My favorite animal: ' + favoriteAnimal)
-console.log(`My favorite animal is ${favoriteAnimal}`)
+// const addMe = 10
+// // addMe += 10
+// console.log(addMe)
+// var favoriteAnimal = 'cat'
+// console.log('My favorite animal: '] + favoriteAnimal)
+// console.log(`My favorite animal is ${favoriteAnimal}`)
 
+// // 1. Create a variable called myName and assign it your name.
+// myName = 'jwb'
+
+
+function greeting(name) {
+    console.log(`Hello ${name}`)
+}
+
+greeting("Rohith")
