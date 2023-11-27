@@ -2,7 +2,6 @@
 Introduction To JavaScript
 -> Understand the basics of JavaScript
 -> Its role in web development
--> Its essential syntax.
 */
 
 
