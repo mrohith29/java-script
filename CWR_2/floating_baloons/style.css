@@ -1,0 +1,30 @@
+#balloonContainer {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.balloon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f00;
+    border: 2px solid #000;
+}
+
+#balloon1 {
+    top: 50px;
+    left: 100px;
+}
+
+#balloon2 {
+    top: 150px;
+    left: 200px;
+}
+
+#balloon3 {
+    top: 250px;
+    left: 300px;
+}
