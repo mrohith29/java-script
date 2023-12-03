@@ -26,6 +26,13 @@
 //     console.log(n + " is not a prime number")
 // }
 
+//
+// let str = "hello, hello, world"
+// console.log(str.lastIndexOf("hello")) // output = 7
 
-let str = "hello, hello, world"
-console.log(str.lastIndexOf("hello")) // output = 7
+console.log("Hi this is rohith's adda")
+let x = prompt("hi", "error")
+console.log(x)
+alert("hello")
+
+console.log("Hi mr")
