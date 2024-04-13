@@ -1,0 +1,33 @@
+[1mdiff --git a/CWH/letvarconst.js b/CWH/letvarconst.js[m
+[1mindex 9de1ee5..e146f7d 100644[m
+[1m--- a/CWH/letvarconst.js[m
+[1m+++ b/CWH/letvarconst.js[m
+[36m@@ -2,7 +2,7 @@[m [mx = 12[m
+ // console.log(x+1-2)[m
+ var a = "hello"[m
+ {[m
+[31m-    var a = "hii" // the value of the global variable has changed that is var scope is not about the block it has global scope [m
+[32m+[m[32m    var a = "hii" // var has global scope[m
+     console.log(a)[m
+ }[m
+ [m
+[36m@@ -17,4 +17,8 @@[m [mlet b = "hello" // let can be redeclared and changed[m
+ console.log(b)[m
+ [m
+ const c = "hello" // const cannot be rechanged nor redeclared[m
+[32m+[m[32m{[m
+[32m+[m[32m    const c = 12;[m
+[32m+[m[32m    console.log(c)[m
+[32m+[m[32m}[m
+ console.log(c)[m
+[1mdiff --git a/CWH/variables.js b/CWH/variables.js[m
+[1mindex 1dfe144..61448f2 100644[m
+[1m--- a/CWH/variables.js[m
+[1m+++ b/CWH/variables.js[m
+[36m@@ -3,3 +3,5 @@[m [mvar x = 12[m
+ console.log(x)[m
+ x = 'hoo'[m
+ console.log(x)[m
+[32m+[m[32m// in js we can reassign the let and var variables with another datatype and it is accepted where as we cannot do that using the const type.[m
+[32m+[m[32m  sdsf[m
+\ No newline at end of file[m

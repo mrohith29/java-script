@@ -2,7 +2,7 @@ x = 12
 // console.log(x+1-2)
 var a = "hello"
 {
-    var a = "hii" // the value of the global variable has changed that is var scope is not about the block it has global scope 
+    var a = "hii" // var has global scope
     console.log(a)
 }
 
@@ -17,4 +17,8 @@ let b = "hello" // let can be redeclared and changed
 console.log(b)
 
 const c = "hello" // const cannot be rechanged nor redeclared
+{
+    const c = 12;
+    console.log(c)
+}
 console.log(c)
