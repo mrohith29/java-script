@@ -1,27 +1,29 @@
-let nums = [1, 2, 5, 4, 3]
+// let nums = [1, 2, 5, 4, 3]
 
 // for-each
-nums.forEach((number) =>
-    console.log(number)
-)
+// nums.forEach((number) =>
+//     console.log(number)
+// )
 
-// Array.from
+// // Array.from
 
-let a = Array.from(nums)
-console.log(a)
+// let a = Array.from(nums)
+// console.log(a)
 
-// same as for-from
-let b = nums
-console.log(b)
+// // same as for-from
+// let b = nums
+// console.log(b)
 
 
-// for-of
-for (let i of nums) {
-    console.log(i)
-}
+// // for-of
+// for (let i of nums) {
+//     console.log(i)
+// }
 
 // for-in
 
-for (let i in nums) { // loops on indices
+let nums = [-1, 10, 201, -112]
+for (let i in nums) { // loops on indices where i is the index, it is similar to the for i in range() loop in python
+    console.log(i)
     console.log(nums[i])
 }
